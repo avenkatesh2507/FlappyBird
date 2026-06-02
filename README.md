@@ -6,6 +6,15 @@ A Flappy Bird clone built with Java (Swing) and playable in the browser.
 
 **[Play the game](https://avenkatesh2507.github.io/FlappyBird/)** (GitHub Pages)
 
+### One-time setup (repo owner)
+
+If the link above does not work yet:
+
+1. Open [Settings → Pages](https://github.com/avenkatesh2507/FlappyBird/settings/pages)
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. Choose branch **`gh-pages`**, folder **`/ (root)`**, then **Save**
+4. Wait 1–2 minutes for the workflow to finish, then refresh the play link
+
 ## Run locally (Java desktop)
 
 ```bash
