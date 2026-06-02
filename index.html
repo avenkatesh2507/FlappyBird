@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flappy Bird</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+      font-family: system-ui, -apple-system, sans-serif;
+      color: #eee;
+      padding: 1rem;
+    }
+    h1 { margin-bottom: 0.5rem; font-size: 1.5rem; }
+    p.hint { margin-bottom: 1rem; font-size: 0.9rem; opacity: 0.85; }
+    canvas {
+      border: 3px solid #0f3460;
+      border-radius: 8px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+    a.repo {
+      margin-top: 1rem;
+      color: #7fdbff;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flappy Bird</h1>
+  <p class="hint">Press SPACE or click / tap to flap · R to restart after game over</p>
+  <canvas id="game" width="400" height="600"></canvas>
+  <a class="repo" href="https://github.com/avenkatesh2507/FlappyBird">View source on GitHub</a>
+  <script src="game.js"></script>
+</body>
+</html>
